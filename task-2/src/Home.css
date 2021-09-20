@@ -1,0 +1,10 @@
+.home{
+    
+    background: rgb(253, 253, 253);
+    background-image: url('./lgm.png');
+    font-family: 'Nunito', sans-serif;
+    height: 1000px;
+    background-size: cover;
+}
+
+
