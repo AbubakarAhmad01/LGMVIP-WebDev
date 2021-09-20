@@ -1,0 +1,463 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*----------navigation----------*/
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 10px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.nav-bar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*------------slider---------------*/
+#slider
+{
+width: 100%;
+
+}
+.carousel-inner {
+	height: 90vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.carousel-item {
+	margin-top: -40px;
+	
+}
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+    color: #fff;
+    font-size: 60px;
+	margin-top:-300px;
+}
+
+
+/* -----------WELCOME ZIPPY-------- */
+
+.components-header {
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bolder;
+}
+
+.components-para {
+	color: grey;
+	text-align: left;
+	line-height: 1;
+	font-size: 1.5rem;
+}
+
+.components-data {
+	margin-top: 4rem;
+	padding: 0 25%;
+}
+
+.components-image {
+	height: 150px;
+	width: auto;
+	max-width: 100%;
+}
+
+.components-row2 {
+	font-size: 1rem;
+}
+
+.components-row2-div {
+	background-color: #72147e;
+	height: 70px;
+	width: 70px;
+	border-radius: 100%;
+	margin: 0 auto;
+}
+
+.components-row2-image {
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 2.5rem;
+	padding-left: 3.5rem;
+}
+
+.components-row2-card-heading {
+	font-weight: 600;
+	padding: 10% 5% 10% 0;
+	margin-left: 7rem;
+	color: #72147e;
+}
+
+.components-row2-card-text {
+	padding: 0 10% 5% 10%;
+	color: #878686;
+}
+
+.components-row2-button-01 {
+	background-color: #ffd451;
+	color: black;
+}
+.components-row2-button-02 {
+	background-color: #530e5c;
+	color: white;
+}
+.components-row2-button-02:hover {
+	background-color: #ffd451;
+	color: black;
+}
+.components-row2-button-01:hover {
+	background-color: #301b3f;
+	color: white;
+}
+
+.button-style {
+	padding-left: 5rem;
+}
+
+.icon {
+	text-align: center;
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
+	background: #82589f;
+	margin: 1rem 0;
+}
+.icon i {
+	font-size: 2rem;
+	line-height: 6rem;
+	color: #fff;
+}
+.btn{
+	background-color:#72147e;
+}
+/*-------------Team members---------------*/
+#team
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;   
+}
+h1
+{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic
+{
+    margin-top: 25px;
+	
+	
+}
+
+.img-responsive{
+	height: 150px;
+	width: 150px;
+	border-radius: 150%;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img
+{
+    filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+}
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+}
+#team .fab
+{
+  height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+.img-box ul
+{
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+}
+.img-box ul li
+{
+    padding: 5px;
+    display: inline-block;
+}
+.img-box:hover ul
+{
+    opacity: 1;
+}
+.img-box ul, .img-box ul li
+{
+    transition: 0.5s;
+}
+
+/*-----------------Price-plans----------------------*/
+#price
+{
+    padding: 40px 0;
+    background: #efefef;
+}
+.single-price
+{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.single-price:hover
+{
+    box-shadow: 0 2px 20px #333;
+}
+.price-head
+{
+    background-color: #5f156e;
+    display: inline;
+    float: left;
+    padding: 10px 55px;
+    text-align: center;
+    width: 100%;
+}
+.price-head h2
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.price-head p
+{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+#price span
+{
+    font-size: 15px;
+}
+.price-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.price-content ul li
+{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+ul li:last-child
+{
+    border:none;
+}
+.fa-check-circle
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fa-times-circle
+{
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.price-button
+{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+.buy-btn
+{
+    background-color: #5f156e;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+.buy-btn:hover
+{
+    border-color: 1px solid #fff;
+    background-color: #4b1659;
+}
+a
+{
+    text-decoration: none !important;
+    color: #fff!important;
+}
+/* ---------------- NEWSLETTER --------------- */
+
+#newsletter {
+	background:  url(img/news.jpeg);
+	height: 30rem;
+	background-size: cover;
+	background-position: center;
+}
+#newsletter .newsletter-signup {
+	height: 7rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#newsletter .newsletter-signup {
+	max-width: 350rem;
+	height: 16rem;
+	border: none;
+	outline: none;
+	padding: 1rem 1rem;
+	font-size: 1.6rem;
+	color: #82589f;
+}
+#newsletter .newsletter-signup button {
+	height: 4rem;
+	font-size: 1.4rem;
+	margin-left: 0.8rem;
+	color: #000;
+	font-weight: 600;
+	background: #fed330;
+	padding: 0.6rem 0.8rem;
+}
+
+#newsletter .newsletter-signup button:hover {
+	background-color: #82589f;
+	color: #fff;
+}
+
+
+/*------------------Get in Touch----------------------*/
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+	
+}
+
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px; 
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/*-------------------Footer----------------------*/
+#footer
+{
+   background: #333;
+    color: #fff;
+    padding: 12px;
+	
+}
+.fa-heart
+{
+    margin: 3px;
+    color: red;
+}
+
+       
+        
+        
+
